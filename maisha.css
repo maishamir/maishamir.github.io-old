@@ -7,16 +7,21 @@ h1 {
     font-family: 'Lato', sans-serif;
     text-transform: uppercase; 
     color: rgb(199, 172, 17);
-    /* font-weight: lighter; */
+    font-weight: normal;
     letter-spacing: 3px;
     font-size: 40px;
 }
 
 p {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+}
+
+#icon:hover{
+    opacity: 0.5;
 }
 
 #icon{
     width: 50px;
-    color: #c7ac11;
+    color: c7ac11;
 }
