@@ -3,6 +3,8 @@ body {
     text-align: center;
     position: relative;
     font-weight: lighter;
+    font-family: 'Merriweather', serif;
+
 }
 
 h1 {
@@ -14,8 +16,13 @@ h1 {
     font-size: 40px;
 }
 
+#about-me{
+    font-size: 14px;
+}
+
 p {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Merriweather', serif;
+
     font-weight: lighter;
 }
 
@@ -34,6 +41,7 @@ p {
     /* color: rgb(34, 34, 34); */
     font-weight: bolder;
     color: rgb(71, 71, 71);
+    font-size: 13px;
     
    
 }
