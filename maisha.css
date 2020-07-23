@@ -2,6 +2,7 @@ body {
     padding: 70px;
     text-align: center;
     position: relative;
+    font-weight: lighter;
 }
 
 h1 {
@@ -28,11 +29,15 @@ p {
 
 }
 
-#footer{
-    color: red;
-    position: absolute;
+#footer p{
+    /* color: rgb(34, 34, 34); */
+    font-weight: bolder;
+    color: rgb(71, 71, 71);
     
+   
 }
+
+
 
 /* #resume {
     padding: 5px;
@@ -50,7 +55,7 @@ p {
 hr {
     border: 0;
     height: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-top: 1px solid rgba(192, 192, 192, 0.1);
+    border-bottom: 1px solid rgba(199, 172, 17, 0.4);  
     width: 300px;
 }
