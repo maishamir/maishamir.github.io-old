@@ -28,6 +28,7 @@ p {
 
 .icon:hover{
     opacity: 0.4;
+    transform: translateY(-0.25em);
 }
 
 .icon{
@@ -65,11 +66,18 @@ p {
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
     font-size: 14px;
+    transition: .25s ease-out;
 
 }
 
 .resume:hover {
     border-radius: 20px;
+    /* border-color: black;
+    transform: translateY(-0.25em);
+    color: black;
+    box-shadow: 0 0.5em 0.5em -0.4em rgb(0, 195, 176);
+    cursor: pointer; */
+    
     
 }
 
