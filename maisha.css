@@ -104,3 +104,39 @@ hr {
 .facebook {
   color: blue;
 }
+
+/* toggle-theme button */
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+
+  width: 50px;
+  height: 25px;
+  border-radius: 100px;
+  box-shadow: inset 0px 0px 0px 2px gray;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  outline: none;
+}
+
+input[type="checkbox"]:checked {
+  background-color: rgba(189, 142, 52, 0.2);
+  box-shadow: inset 0px 0px 0px 2px rgb(184, 137, 50);
+}
+
+input[type="checkbox"]::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  border-radius: 100px;
+  transform: scale(1.1);
+  width: 25px;
+  height: 25px;
+  background-color: black;
+  transition: all 0.3s ease-in-out;
+}
+
+input[type="checkbox"]:checked::before {
+  left: 25px;
+  background-color: rgb(211, 158, 59);
+}
