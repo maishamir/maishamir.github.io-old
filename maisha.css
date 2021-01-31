@@ -4,6 +4,7 @@
   --brdr: black;
   --p-txt-color: black;
   --hr-color: rgba(199, 172, 17, 0.4);
+  --icon-color: black;
 }
 
 .teal {
@@ -12,6 +13,7 @@
   --brdr: #e7d073;
   --p-txt-color: #fbf6e0;
   --hr-color: rgb(189, 142, 52);
+  --icon-color: #ccc6b8;
 }
 
 body {
@@ -42,15 +44,19 @@ p {
   font-weight: lighter;
 }
 
-.icon:hover {
-  opacity: 0.4;
-  transform: translateY(-0.25em);
+.all-icons {
+  margin-bottom: 5px;
+  color: var(--icon-color);
 }
 
-.icon {
-  width: 50px;
-  /* color: #c7ac11; */
-  transition: 0.15s ease;
+.single-icon {
+  display: inline-block;
+  transition: 0.15s ease-in;
+}
+
+.single-icon:hover {
+  opacity: 0.4;
+  transform: translateY(-0.25em);
 }
 
 #footer p {
@@ -93,4 +99,8 @@ hr {
   border-top: 1px solid rgba(192, 192, 192, 0.1);
   border-bottom: 1px solid var(--hr-color);
   width: 300px;
+}
+
+.facebook {
+  color: blue;
 }

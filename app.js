@@ -1,4 +1,5 @@
 let toggle = document.querySelector(".toggle-theme");
+document.body.classList.remove("teal");
 
 toggle.addEventListener("click", function (e) {
   e.preventDefault();
@@ -6,6 +7,7 @@ toggle.addEventListener("click", function (e) {
   if (document.body.classList.contains("teal")) {
     // Turning the theme off:
     document.body.classList.remove("teal");
+
     // Reverse logic on the button text, so that users can turn
     // the theme back on:
     toggle.innerText = "Turn theme on";
@@ -14,3 +16,5 @@ toggle.addEventListener("click", function (e) {
     toggle.innerText = "Turn theme off";
   }
 });
+
+// if()
