@@ -25,13 +25,14 @@ body {
   background-color: var(--bg);
 }
 
-.header { 
+.header {
+  /* background-color: black; */
   display: flex;
   justify-content: flex-end;
-  width: 100%;
+  width: 90%;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 5%;
+  left: 5%;
 }
 
 h1 {
