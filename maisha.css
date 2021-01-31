@@ -25,6 +25,15 @@ body {
   background-color: var(--bg);
 }
 
+.header {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 h1 {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
@@ -42,16 +51,19 @@ p {
   font-family: "Merriweather", serif;
   color: var(--p-txt-color);
   font-weight: lighter;
+  text-align: center;
 }
 
 .all-icons {
   margin-bottom: 5px;
+  text-align: center;
   color: var(--icon-color);
 }
 
 .single-icon {
   display: inline-block;
   transition: 0.15s ease-in;
+  margin: 5px 10px;
 }
 
 .single-icon:hover {
@@ -139,4 +151,8 @@ input[type="checkbox"]::before {
 input[type="checkbox"]:checked::before {
   left: 25px;
   background-color: rgb(211, 158, 59);
+}
+
+.toggle-theme {
+  justify-content: right;
 }
