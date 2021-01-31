@@ -25,7 +25,7 @@ body {
   background-color: var(--bg);
 }
 
-.header {
+.header { 
   display: flex;
   justify-content: flex-end;
   width: 100%;
