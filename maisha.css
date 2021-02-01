@@ -16,6 +16,13 @@
   --icon-color: #ccc6b8;
 }
 
+.royal {
+  --bg: #373650;
+  --h1-txt-color: #c28e47;
+  --brdr: #d8b88c;
+  --
+}
+
 body {
   padding: 70px;
   text-align: center;
@@ -156,4 +163,8 @@ input[type="checkbox"]:checked::before {
 
 .toggle-theme {
   justify-content: right;
+}
+
+a {
+  color: var(--icon-color);
 }
