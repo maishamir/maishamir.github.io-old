@@ -80,7 +80,7 @@ p {
 }
 
 #footer p {
-  font-weight: bolder;
+  font-weight: 700;
   color: var(--p-txt-color);
   font-size: 13px;
 }
